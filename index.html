@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Природа</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='header.jpg') }}" alt="Природа" style="width: 100%; max-height: 300px; object-fit: cover;">
+        <h1>Добро пожаловать в мир природы!</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/about">О нас</a>
+            <a href="/contact">Контакты</a>
+        </nav>
+    </header>    
+    <main>
+        <section>
+            <h2>О природе</h2>
+            <p>Природа — это всё, что нас окружает. Она прекрасна и разнообразна.</p>
+        </section>
+        <section>
+            <h2>Наши цели</h2>
+            <ul>
+                <li>Сохранение природы</li>
+                <li>Образование</li>
+                <li>Защита экосистем</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Природа</p>
+    </footer>
+</body>
+</html>
